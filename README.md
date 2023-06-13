@@ -1,7 +1,7 @@
 # doThis_Server
 doThis Server
 
-# Introduction
+## Introduction
 
 **The Flask-based Workout Video Analysis Server** is designed to analyze users' workout videos and provide insightful results. Built upon the Flask framework, this server offers a seamless and user-friendly experience, enabling fitness enthusiasts to gain valuable insights into their exercise routines.
 
@@ -9,7 +9,7 @@ Our servers leverage **computer vision technology** to help users extract key me
 
 ---
 
-# Features
+## Features
 
 - **Video analysis**
     
@@ -27,8 +27,9 @@ Our servers leverage **computer vision technology** to help users extract key me
     
     Create a Docker volume to be used as a temporary DB. Data is not stored locally on the computer where the server runs, stored in Docker volume. This is because if all user videos received while the server is running are assigned to variables and managed, there is a risk of taking up a large amount of capacity in RAM, which may burden the server, and if the server fails to fully store data in Firebase and shuts down, all data stored as local variable disappears. By placing the volume separately like this, the stability was enhanced.
     
+---
 
-# Server Architecture
+## Server Architecture
 
 **The flowchart of the client's video analysis through the server and database is shown below.**
 
@@ -46,7 +47,7 @@ Our servers leverage **computer vision technology** to help users extract key me
 
 ---
 
-# API Documentation
+## API Documentation
 
 **This request allows you to request analysis from the server.**
 
@@ -66,7 +67,7 @@ Our servers leverage **computer vision technology** to help users extract key me
 
 ---
 
-# Installation and Setup
+## Installation and Setup
 
 You have to download and install **Docker**
 
@@ -107,7 +108,7 @@ Run server with **docker-compose.yml**
 
 ---
 
-# Support
+## Support
 
 If there is a problem or if you have any questions, please contact us by **email.**
 
