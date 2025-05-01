@@ -1,5 +1,5 @@
-# doThis_Server
-doThis Server
+# Graduation Project - [doThis] Server
+
 - [English](README.en.md)
 - [한국어](README.md)
 
