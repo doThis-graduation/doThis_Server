@@ -1,4 +1,4 @@
-# 졸업 작품 [doThis] Server
+# 졸업 작품 - [doThis] Server
 
 - [English](README.en.md)
 - [한국어](README.md)
