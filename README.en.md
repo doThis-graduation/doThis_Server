@@ -1,7 +1,7 @@
 # doThis_Server
 doThis Server
-- [English](README.md)
-- [한국어](README.ko.md)
+- [English](README.en.md)
+- [한국어](README.md)
 
 ## Introduction
 
